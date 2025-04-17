@@ -1,8 +1,11 @@
 # 👨‍🎓 Matheus Catapane
 
 **`Estudante de Tecnologia`**
+Me chamo Matheus, tenho 21 anos e sou natural de Suzano - SP. Atualmente curso Análise e Desenvolvimento de Sistemas na UMC – Universidade Mogi das Cruzes, com foco em construir minha carreira na área de banco de dados e manipulação de dados.
 
-Me chamo Matheus Catapane, tenho 21 anos e sou natural de Suzano-SP. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas (Tecnólogo) na UMC - Universidade de Mogi Das Cruzes. Sou apaixonado por tecnologia, com foco em banco de dados e análise de dados.
+Tenho maior familiaridade com MySQL e utilizo o phpMyAdmin como ferramenta para criação, organização e consulta de dados. Me interesso pelas diversas vertentes da área, como modelagem, estruturação e análise de dados. Também possuo conhecimentos básicos em HTML e CSS, e estou em constante evolução técnica.
+
+Busco uma oportunidade de estágio em banco de dados ou áreas relacionadas, onde eu possa aplicar meus conhecimentos, aprender na prática e crescer profissionalmente com responsabilidade e dedicação.
 
 ---
 
