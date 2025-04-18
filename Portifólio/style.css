@@ -1,0 +1,278 @@
+port css 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(100deg, #000000 , #24056b 100%);
+    color: #ffffff;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.content {
+    max-width: 500px;
+    margin-top: 55px;
+    margin-left: 100px;
+    margin-right: 10px;
+    
+}
+
+.content h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #fff;
+}
+    
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #dcdcdc; 
+    margin-bottom: 20px;
+}
+
+/* Estilos para os botões */
+.buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    position: center;
+    
+}
+.buttons a:nth-child(1) /*linkedin*/
+{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: solid 0.01px white;
+}
+
+.buttons a:nth-child(1):hover /*linkedin efeitos*/
+{
+    box-shadow: #000000 0px 0px 50px;
+    transform: rotate(10deg);
+}
+
+/* Estilos para a imagem */ 
+.image-container {
+    margin-left: 30px;
+    position: relative;
+    max-width: 400px;
+    max-height: 500px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    position: center;
+    border-radius: 20px;
+    filter: grayscale(100%) blur(2px);
+    transition: all 1.9s ease;
+    margin-left: auto;
+}
+.image-container:hover img {
+    transform: rotate(10deg) scale(1.1); 
+    filter: grayscale(0%);
+    box-shadow: #000000 0px 0px 50px;
+}
+
+.image-container::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ffffff; 
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.image-container::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 100%;
+    height: 100%;
+    border: 2px dashed #ffffff; 
+    border-radius: 12px;
+    z-index: -1;
+}
+/* Estilos para o cabecalho */
+header { 
+    text-align: top;
+    padding-top: 100px;
+    margin-right: 100px; 
+}
+.content h1 span {
+    color: #b6b4b4;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-decoration: underline 1px;
+}
+.content h1 span:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+    color: white;
+}
+.content p span {
+    color: #b6b4b4;
+    display: inline-block;
+    transition: transform 0.3s ease
+}
+.content p span:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1) ;
+    color: white;
+    
+}
+
+/* Estilos para a seção, como assim sessao? explicação: a seção é um espaço onde você pode colocar conteúdo */
+section {
+    padding: 50px 20px; /* Espaço interno */
+    text-align: center; /*alinha o texto ao centro */
+    margin-top: 150px; /* Garante que fique abaixo do conteúdo principal */
+    width: 100%; /* Ocupa toda a largura */
+    background-color: transparent
+    color: #fff;
+    min-height: 100vh; /* Garante que ocupe a altura da tela */
+
+}
+
+/* Estilos para o título da seção */
+section h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #b6b4b4;
+    display: inline-block;
+    transition: transform 0.5s ease, background-color 0.5s ease, text-shadow 0.5s ease;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+section h2:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6), 0 0 15px rgba(255, 255, 255, 0.4); 
+}
+
+/* Estilos para o projeto 1 */
+.project1 {
+  padding: 20px;
+  width: 280px;
+  height: 200px;
+}
+section .project1 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: solid 0.01px rgb(255, 255, 255);
+}
+section .project1 a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: solid 0.01px rgb(255, 255, 255);
+    margin-top: 5px;
+}
+section .project1:hover {
+    box-shadow: #000000 0px 0px 50px;
+    transform: rotate(10deg) scale(1.1);
+    
+}
+section .project1 p {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: solid 0.01px transparent;
+    margin-top: 5px;
+}
+/* Estilos para o projeto 2 */
+.project2 {
+    background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  height: 200px;
+ 
+}
+section .project2 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: solid 0.01px rgb(255, 255, 255);
+}
+section .project2 a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: solid 0.01px rgb(255, 255, 255);
+    margin-top: 5px;
+}
+section .project2:hover {
+    box-shadow: #000000 0px 0px 50px;
+    transform: scale(1.1)
+}
+section .project2 p {
+    display: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: solid 0.01px transparent;
+    margin-top: 5px;
+}
